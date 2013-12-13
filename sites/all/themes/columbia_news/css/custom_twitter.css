@@ -1,0 +1,119 @@
+html {
+  color: #333 !important; }
+
+@media (max-width: 767px) {
+  html {
+    width: 100%; } }
+@media (min-width: 768px) {
+  html {
+    width: 560px; } }
+.root.timeline.twitter-timeline {
+  background-color: transparent !important; }
+  .root.timeline.twitter-timeline p, .root.timeline.twitter-timeline a, .root.timeline.twitter-timeline ol, .root.timeline.twitter-timeline ul, .root.timeline.twitter-timeline li {
+    font-family:"franklin-gothic-urw-cond",arial, helvetica,sans-serif !important; }
+    
+.root.timeline.twitter-timeline li { 
+margin-bottom: 10px !important;
+padding: 0 10px !important;
+
+}
+
+
+.stream {
+
+height: auto !important;
+background-color: #fbf9f8 !important;
+
+
+}
+
+.root.twitter-timeline .tweet {
+  padding: 7px 10px;
+  border-bottom: 0px solid #10396f !important; }
+.root.twitter-timeline a,
+.root.twitter-timeline a:visited {
+  text-decoration: none !important; }
+.root.twitter-timeline .u-url,
+.root.twitter-timeline .expand,
+.root.twitter-timeline .hashtag,
+.root.twitter-timeline .profile {
+  text-decoration: none !important; }
+  .root.twitter-timeline .u-url:hover,
+  .root.twitter-timeline .expand:hover,
+  .root.twitter-timeline .hashtag:hover,
+  .root.twitter-timeline .profile:hover {
+    text-decoration: none !important;
+    color: #10396f !important;
+    font-weight: 700 !important; }
+
+.u-photo,
+.full-name,
+.inline-media,
+.tweet-actions, 
+.tweet-actions,
+.footer  {
+  display: none; }
+  
+  .var-narrow .tweet .header {
+    position: relative !important;
+    min-height: 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    color: #10396f !important;
+    font-weight: bold !important;
+}
+
+.var-narrow.var-chromeless .tweet {
+
+padding: 0px !important;
+
+}
+
+.var-narrow .header .p-nickname, .var-narrow .header .p-nickname b {
+    line-height: 16px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #10396f !important;
+}
+
+
+.var-chromeless button.load-more,  .var-chromeless button.load-more:hover {
+    width: 49% !important;
+    margin: 0px !important;
+    text-shadow: none;
+    border: 0px solid rgb(204, 204, 204)!important;
+    border-radius: 4px 4px 4px 4px;
+	text-transform: none !important;
+	font-weight: 700 !important;
+    display: inline !important;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0px;
+    
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px none;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.05) inset;
+    transition: background-color 0.2s ease-out 0s;
+    
+    
+}
+
+.var-chromeless button.load-more:after,  .var-chromeless button.load-more:hover:after {
+text-align: left;
+display: inline !important;
+content:" Headlines >>"
+}
+
+button.load-more, .tweet-box-button, .no-tweets-pane .load-tweets {
+    -moz-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+

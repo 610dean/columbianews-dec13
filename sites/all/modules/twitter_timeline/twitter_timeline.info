@@ -1,0 +1,12 @@
+name = Twitter Timeline
+description = Display a twitter timeline widget in a block
+package = Other
+core = 7.x
+dependencies[] = "bean"
+files[] = "plugins/bean/twitter_timeline.inc"
+; Information added by drupal.org packaging script on 2013-03-04
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "twitter_timeline"
+datestamp = "1362405299"
+
